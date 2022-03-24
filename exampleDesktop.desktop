@@ -1,34 +1,32 @@
+    # save to: ~/.local/share/applications
+    # format for creating an entry in Budgie's Brisk Menu to easily launch/find an application
+    
     [Desktop Entry]
 
-    #The type as listed above
     Type=Application
 
-    #The version of the desktop entry specification to which this file complies
     Version=1.0
 
-    #The name of the application
-    Name=Tuxguitar
+    Name=AppToMakeABudgieMenuEntryFor
 
-    #A comment which can/will be used as a tooltip
-    Comment=Editor de tablaturas
+    Comment=A tooltip comment
 
-    #The path to the folder in which the executable is run
-    Path=/home/os4/.bin/tuxguitar-1.5.2-linux-x86_64/
+    # The path to the folder in which the executable is run
+    Path=/home/user/bin/AppToMakeABudgieMenuEntryForFolder/
 
-    #The executable of the application, possibly with arguments.
-    Exec=/home/os4/.bin/tuxguitar-1.5.2-linux-x86_64/tuxguitar.sh
+    # The actual executable of the application, can pass arguments
+    Exec=/home/user/bin/AppToMakeABudgieMenuEntryForFolder/AppToMakeABudgieMenuEntryFor
 
-    #The name of the icon that will be used to display this entry
-    Icon=/home/os4/.bin/tuxguitar-1.5.2-linux-x86_64/share/skins/Lavender/logo.png
+    Icon=/home/user/bin/AppToMakeABudgieMenuEntryForFolder/icons/icon.png
 
-    #Describes whether this application needs to be run in a terminal or not
+    # Whether this application needs to be run in a terminal or not
     Terminal=false
 
-    #Describes the categories in which this entry should be shown
-    Categories=AudioVideo
+    # Categories in which to show this entry, like Game, AudioVideo, or Office, full list of categories 
+    # can be derived from contents of /usr/share/desktop-directories
+    Categories=Education
 
     
 
 
 
-    # save to: ~/.local/share/applications
