@@ -1,5 +1,5 @@
-    # save to: ~/.local/share/applications
     # format for creating an entry in Budgie's Brisk Menu to easily launch/find an application
+    # save edited version with actual fields to: ~/.local/share/applications
     
     [Desktop Entry]
 
